@@ -13,7 +13,7 @@ namespace _01_Task
             reminder = number % 2;
             if (reminder == 0)
             {
-                Console.WriteLine("{0} is an even number", number);
+                Console.WriteLine("{0} is an even number", number);//using {0} placeholder for the value of variable number
             }
             else
             {
